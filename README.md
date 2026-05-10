@@ -135,6 +135,7 @@ The [Model Context Protocol](https://modelcontextprotocol.io/) (MCP) is an open 
 - [Google Calendar MCP](https://github.com/nspady/google-calendar-mcp) - MCP server for Google Calendar events and scheduling.
 - [Apple Notes MCP](https://github.com/sirmews/apple-notes-mcp) - MCP server for reading and searching Apple Notes.
 - [Raycast MCP](https://github.com/raycast/mcp-server-raycast) - MCP server for Raycast productivity launcher.
+- [NotFair Google Ads MCP](https://github.com/nowork-studio/toprank) - Google Ads MCP server. Connect Claude and AI agents to a Google Ads account: diagnose performance, recommend optimizations, and execute approved changes via the Google Ads API with a built-in human-approval gate.
 
 ## Media & Files
 
