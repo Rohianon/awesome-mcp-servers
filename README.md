@@ -150,6 +150,7 @@ The [Model Context Protocol](https://modelcontextprotocol.io/) (MCP) is an open 
 - [Plaid MCP](https://github.com/plaid/mcp-server-plaid) - MCP server for Plaid financial data connections.
 - [Coinbase MCP](https://github.com/coinbase/agentkit) - Coinbase AgentKit with MCP server for crypto operations.
 - [Yahoo Finance MCP](https://github.com/calvernaz/alphavantage-mcp) - MCP server for stock market data and financial analysis.
+- [TWZRD Agent Intel](https://intel.twzrd.xyz) - Trust scoring for Solana AI agent wallets with x402 micropayment verification. Config: `{"url":"https://intel.twzrd.xyz/mcp"}`
 
 ## Monitoring & Observability
 
