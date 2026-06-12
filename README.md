@@ -106,6 +106,7 @@ The [Model Context Protocol](https://modelcontextprotocol.io/) (MCP) is an open 
 - [Browserbase MCP](https://github.com/browserbase/mcp-server-browserbase) - MCP server for cloud browser sessions and web automation.
 - [Perplexity MCP](https://github.com/ppl-ai/modelcontextprotocol) - MCP server for Perplexity AI search.
 - [Serper MCP](https://github.com/nicholaskajoh/mcp-server-serper) - MCP server for Google SERP results via Serper API.
+- [Xquik](https://github.com/Xquik-dev/x-twitter-scraper) - Hosted MCP server and REST API for X data extraction, monitoring, webhooks, and compose workflows.
 
 ## AI & LLM
 
