@@ -116,6 +116,7 @@ The [Model Context Protocol](https://modelcontextprotocol.io/) (MCP) is an open 
 - [Chroma MCP](https://github.com/chroma-core/chroma-mcp) - MCP server for Chroma vector database.
 - [Pinecone MCP](https://github.com/pinecone-io/pinecone-mcp) - MCP server for Pinecone vector search.
 - [Weaviate MCP](https://github.com/weaviate/mcp-server-weaviate) - MCP server for Weaviate vector search engine.
+- [NotFair](https://github.com/nowork-studio/NotFair) - Open-source Claude Code agent skills for SEO, GEO, Google Ads, and Meta Ads — connects to Google Ads MCP, Meta Ads MCP, Google Search Console MCP, and Google Analytics (GA4) MCP.
 
 ## Data & Analytics
 
