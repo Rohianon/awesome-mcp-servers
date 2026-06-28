@@ -150,6 +150,7 @@ The [Model Context Protocol](https://modelcontextprotocol.io/) (MCP) is an open 
 - [Plaid MCP](https://github.com/plaid/mcp-server-plaid) - MCP server for Plaid financial data connections.
 - [Coinbase MCP](https://github.com/coinbase/agentkit) - Coinbase AgentKit with MCP server for crypto operations.
 - [Yahoo Finance MCP](https://github.com/calvernaz/alphavantage-mcp) - MCP server for stock market data and financial analysis.
+- [FilingFirehose MCP](https://filingfirehose.com/mcp) - Hosted SEC EDGAR MCP for any US ticker: 8-K / 10-K / 10-Q / S-3 / 13D filings plus forensic risk scoring (LOW/MODERATE/ELEVATED/HIGH) and cyber-incident tracking.
 
 ## Monitoring & Observability
 
