@@ -141,6 +141,7 @@ The [Model Context Protocol](https://modelcontextprotocol.io/) (MCP) is an open 
 - [S3 MCP](https://github.com/aws/aws-mcp) - MCP server for Amazon S3 file operations.
 - [Cloudinary MCP](https://github.com/cloudinary/cloudinary-mcp-server) - MCP server for Cloudinary image and video management.
 - [FFmpeg MCP](https://github.com/mojowebs/mcp-server-ffmpeg) - MCP server for video/audio processing with FFmpeg.
+- [OrkasVideoStudio](https://github.com/Orkas-AI/Orkas-VideoStudio) - Local-first CLI and MCP toolkit for composing, editing, generating, transcribing, and assembling videos from editable timelines.
 - [Sharp Image MCP](https://github.com/nicholaskajoh/mcp-server-sharp) - MCP server for image processing with Sharp.
 - [PDF MCP](https://github.com/reyoung/pdf-mcp-server) - MCP server for reading and extracting content from PDFs.
 
