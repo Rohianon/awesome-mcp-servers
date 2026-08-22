@@ -105,6 +105,7 @@ The [Model Context Protocol](https://modelcontextprotocol.io/) (MCP) is an open 
 - [Firecrawl MCP](https://github.com/mendableai/firecrawl-mcp-server) - MCP server for Firecrawl web scraping and crawling.
 - [Browserbase MCP](https://github.com/browserbase/mcp-server-browserbase) - MCP server for cloud browser sessions and web automation.
 - [Perplexity MCP](https://github.com/ppl-ai/modelcontextprotocol) - MCP server for Perplexity AI search.
+- [Pocket Drives](https://github.com/RevList/pocket-drives-mcp) - Search peer-to-peer luxury, exotic, and EV rentals from independent hosts over Streamable HTTP at https://pocketdrives.ai/mcp with no auth.
 - [Serper MCP](https://github.com/nicholaskajoh/mcp-server-serper) - MCP server for Google SERP results via Serper API.
 
 ## AI & LLM
