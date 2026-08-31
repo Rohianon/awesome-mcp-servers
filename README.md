@@ -135,6 +135,7 @@ The [Model Context Protocol](https://modelcontextprotocol.io/) (MCP) is an open 
 - [Google Calendar MCP](https://github.com/nspady/google-calendar-mcp) - MCP server for Google Calendar events and scheduling.
 - [Apple Notes MCP](https://github.com/sirmews/apple-notes-mcp) - MCP server for reading and searching Apple Notes.
 - [Raycast MCP](https://github.com/raycast/mcp-server-raycast) - MCP server for Raycast productivity launcher.
+- [Process Street MCP Server](https://github.com/process-street/process-street-mcp) - Official hosted MCP server for accessing Process Street workflows, tasks, runs, data sets, and operational records.
 
 ## Media & Files
 
