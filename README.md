@@ -146,6 +146,7 @@ The [Model Context Protocol](https://modelcontextprotocol.io/) (MCP) is an open 
 
 ## Finance & Payments
 
+- [Statsnet](https://github.com/usenetstate/statsnet-mcp) - Background check any company in the world: registration, executives, courts and finances. Remote: `https://statsnet.co/mcp` · Registry: `io.github.usenetstate/statsnet`
 - [Stripe MCP](https://github.com/stripe/agent-toolkit) - Stripe's AI agent toolkit with MCP server for payments.
 - [Plaid MCP](https://github.com/plaid/mcp-server-plaid) - MCP server for Plaid financial data connections.
 - [Coinbase MCP](https://github.com/coinbase/agentkit) - Coinbase AgentKit with MCP server for crypto operations.
