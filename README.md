@@ -128,6 +128,7 @@ The [Model Context Protocol](https://modelcontextprotocol.io/) (MCP) is an open 
 
 ## Productivity
 
+- [Orbit by Noveum](https://orbit.noveum.ai/mcp) - Hosted MCP server for issues, projects, sprints, docs and files with workspace-scoped OAuth.
 - [Google Drive MCP](https://github.com/modelcontextprotocol/servers/tree/main/src/gdrive) - Official MCP server for Google Drive file operations.
 - [Notion MCP](https://github.com/modelcontextprotocol/servers/tree/main/src/notion) - MCP server for Notion workspace interactions.
 - [Obsidian MCP](https://github.com/smithery-ai/mcp-obsidian) - MCP server for searching and reading Obsidian vault content.
