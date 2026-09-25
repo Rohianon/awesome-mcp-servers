@@ -158,6 +158,8 @@ The [Model Context Protocol](https://modelcontextprotocol.io/) (MCP) is an open 
 - [Grafana MCP](https://github.com/grafana/mcp-grafana) - MCP server for Grafana monitoring and visualization.
 - [PagerDuty MCP](https://github.com/PagerDuty/mcp-server-pagerduty) - MCP server for PagerDuty incident management.
 
+- [Noveum](https://noveum.ai/en/mcp) - Hosted MCP server for AI traces, evaluation datasets, and model comparisons, with OAuth or Bearer API key authentication.
+
 ## Clients & Hosts
 
 - [Claude Desktop](https://claude.ai/download) - Anthropic's desktop app with native MCP client support.
