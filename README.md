@@ -78,6 +78,7 @@ The [Model Context Protocol](https://modelcontextprotocol.io/) (MCP) is an open 
 
 ## Developer Tools
 
+- [API.market MCP Gateway](https://api.market/api/mcp/gateway) - Hosted API discovery and execution with five tools over Streamable HTTP, OAuth or API keys, and per-API free tiers and paid plans.
 - [GitHub MCP](https://github.com/modelcontextprotocol/servers/tree/main/src/github) - Official MCP server for GitHub — repos, issues, PRs, and code search.
 - [GitLab MCP](https://github.com/modelcontextprotocol/servers/tree/main/src/gitlab) - Official MCP server for GitLab operations.
 - [Git MCP](https://github.com/modelcontextprotocol/servers/tree/main/src/git) - Official MCP server for Git repository operations.
