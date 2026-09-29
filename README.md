@@ -129,6 +129,7 @@ The [Model Context Protocol](https://modelcontextprotocol.io/) (MCP) is an open 
 ## Productivity
 
 - [Google Drive MCP](https://github.com/modelcontextprotocol/servers/tree/main/src/gdrive) - Official MCP server for Google Drive file operations.
+- [Hyperconsciousness](https://github.com/louis030195/hyperconsciousness) - Developer-alpha encrypted knowledge store with lexical search and scoped, expiring grants over MCP.
 - [Notion MCP](https://github.com/modelcontextprotocol/servers/tree/main/src/notion) - MCP server for Notion workspace interactions.
 - [Obsidian MCP](https://github.com/smithery-ai/mcp-obsidian) - MCP server for searching and reading Obsidian vault content.
 - [Todoist MCP](https://github.com/abhiz123/todoist-mcp-server) - MCP server for Todoist task management.
