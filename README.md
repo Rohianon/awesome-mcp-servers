@@ -125,6 +125,7 @@ The [Model Context Protocol](https://modelcontextprotocol.io/) (MCP) is an open 
 - [Grafana MCP](https://github.com/grafana/mcp-grafana) - MCP server for Grafana dashboards and data exploration.
 - [Jupyter MCP](https://github.com/datalayer/jupyter-mcp-server) - MCP server for Jupyter notebook execution.
 - [Databricks MCP](https://github.com/databricks/databricks-mcp) - MCP server for Databricks workspace operations.
+- [Invokely MCP connector](https://github.com/estevecastells/invokely-mcp-connector) - Local stdio MCP connector for querying official statistics through Invokely's hosted service.
 
 ## Productivity
 
