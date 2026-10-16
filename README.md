@@ -125,6 +125,7 @@ The [Model Context Protocol](https://modelcontextprotocol.io/) (MCP) is an open 
 - [Grafana MCP](https://github.com/grafana/mcp-grafana) - MCP server for Grafana dashboards and data exploration.
 - [Jupyter MCP](https://github.com/datalayer/jupyter-mcp-server) - MCP server for Jupyter notebook execution.
 - [Databricks MCP](https://github.com/databricks/databricks-mcp) - MCP server for Databricks workspace operations.
+- [CareJobs.Now MCP](https://github.com/yumaheymans/carejobs-mcp) - Read-only MCP server for searching US healthcare job postings and the pay employers post, with no API key.
 
 ## Productivity
 
