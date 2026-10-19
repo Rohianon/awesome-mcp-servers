@@ -146,6 +146,7 @@ The [Model Context Protocol](https://modelcontextprotocol.io/) (MCP) is an open 
 
 ## Finance & Payments
 
+- [Agent Payment Node](https://github.com/nuanu-ai/agent-payment-node) - Local CLI and stdio MCP payments on macOS; signing requires foreground owner approval.
 - [Stripe MCP](https://github.com/stripe/agent-toolkit) - Stripe's AI agent toolkit with MCP server for payments.
 - [Plaid MCP](https://github.com/plaid/mcp-server-plaid) - MCP server for Plaid financial data connections.
 - [Coinbase MCP](https://github.com/coinbase/agentkit) - Coinbase AgentKit with MCP server for crypto operations.
