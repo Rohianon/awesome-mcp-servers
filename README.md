@@ -19,8 +19,10 @@ The [Model Context Protocol](https://modelcontextprotocol.io/) (MCP) is an open 
 - [Data & Analytics](#data--analytics)
 - [Productivity](#productivity)
 - [Media & Files](#media--files)
+- [Design & 3D](#design--3d)
 - [Finance & Payments](#finance--payments)
 - [Monitoring & Observability](#monitoring--observability)
+- [Smart Home & IoT](#smart-home--iot)
 - [Clients & Hosts](#clients--hosts)
 - [Gateways & Registries](#gateways--registries)
 - [Testing & Debugging](#testing--debugging)
@@ -109,6 +111,7 @@ The [Model Context Protocol](https://modelcontextprotocol.io/) (MCP) is an open 
 
 - [LangChain MCP](https://github.com/langchain-ai/langchain-mcp-adapters) - Adapters for using MCP tools with LangChain agents.
 - [RunAPI MCP](https://github.com/runapi-ai/mcp) - MCP server for running AI image, video, music, speech, and LLM jobs through RunAPI.
+- [Sequential Thinking MCP](https://github.com/modelcontextprotocol/servers/tree/main/src/sequentialthinking) - Official reference server for structured, step-by-step problem solving.
 
 ## Memory & Knowledge
 
@@ -118,6 +121,7 @@ The [Model Context Protocol](https://modelcontextprotocol.io/) (MCP) is an open 
 - [Chroma MCP](https://github.com/chroma-core/chroma-mcp) - MCP server for Chroma vector database.
 - [Pinecone MCP](https://github.com/pinecone-io/pinecone-mcp) - MCP server for Pinecone vector search.
 - [Weaviate MCP](https://github.com/weaviate/mcp-server-weaviate) - MCP server for Weaviate vector search engine.
+- [Memory MCP](https://github.com/modelcontextprotocol/servers/tree/main/src/memory) - Official reference server for persistent memory using a local knowledge graph.
 
 ## Data & Analytics
 
@@ -135,11 +139,18 @@ The [Model Context Protocol](https://modelcontextprotocol.io/) (MCP) is an open 
 - [Google Calendar MCP](https://github.com/nspady/google-calendar-mcp) - MCP server for Google Calendar events and scheduling.
 - [Apple Notes MCP](https://github.com/sirmews/apple-notes-mcp) - MCP server for reading and searching Apple Notes.
 - [NotFair Google Ads MCP](https://github.com/nowork-studio/toprank) - Google Ads MCP server. Connect Claude and AI agents to a Google Ads account: diagnose performance, recommend optimizations, and execute approved changes via the Google Ads API with a built-in human-approval gate.
+- [Time MCP](https://github.com/modelcontextprotocol/servers/tree/main/src/time) - Official reference server for time and timezone conversions.
 
 ## Media & Files
 
 - [Cloudinary MCP](https://github.com/cloudinary/mcp-servers) - MCP servers for Cloudinary image and video management.
 - [OrkasVideoStudio](https://github.com/Orkas-AI/Orkas-VideoStudio) - Local-first CLI and MCP toolkit for composing, editing, generating, transcribing, and assembling videos from editable timelines.
+
+## Design & 3D
+
+- [Figma MCP](https://help.figma.com/hc/en-us/articles/32132100833559-Guide-to-the-Figma-MCP-server) - Figma's official MCP server for bringing design context into coding agents.
+- [Figma Context MCP](https://github.com/GLips/Figma-Context-MCP) - Provides Figma layout information to AI coding agents.
+- [Blender MCP](https://github.com/ahujasid/mcp-for-blender) - Community plugin for controlling Blender 3D with any LLM.
 
 ## Finance & Payments
 
@@ -157,6 +168,11 @@ The [Model Context Protocol](https://modelcontextprotocol.io/) (MCP) is an open 
 - [Kilobat CLI](https://github.com/seifip/kilobat-cli) - Local macOS 14+ network diagnostics and per-app traffic monitoring exposed through stdio MCP and JSON.
 - [Noveum](https://noveum.ai/en/mcp) - Hosted MCP server for AI traces, evaluation datasets, and model comparisons, with OAuth or Bearer API key authentication.
 
+## Smart Home & IoT
+
+- [Home Assistant MCP Server](https://www.home-assistant.io/integrations/mcp_server/) - Built-in Home Assistant integration that exposes your smart home to MCP clients.
+- [ha-mcp](https://github.com/homeassistant-ai/ha-mcp) - MCP server for configuring and automating Home Assistant with AI assistants.
+
 ## Clients & Hosts
 
 - [Claude Desktop](https://claude.ai/download) - Anthropic's desktop app with native MCP client support.
@@ -169,6 +185,9 @@ The [Model Context Protocol](https://modelcontextprotocol.io/) (MCP) is an open 
 - [Sourcegraph Cody](https://sourcegraph.com/cody) - AI coding assistant with MCP support for code understanding.
 - [Amazon Q Developer](https://aws.amazon.com/q/developer/) - AWS AI assistant with MCP client capabilities.
 - [Genkit (Google)](https://github.com/firebase/genkit) - Google's AI framework with MCP plugin support.
+- [VS Code](https://code.visualstudio.com/docs/agent-customization/mcp-servers) - Visual Studio Code's agent mode with GitHub Copilot supports MCP servers.
+- [Gemini CLI](https://github.com/google-gemini/gemini-cli) - Google's open-source AI agent for the terminal with MCP support.
+- [Codex CLI](https://github.com/openai/codex) - OpenAI's lightweight coding agent for the terminal with MCP support.
 
 ## Gateways & Registries
 
@@ -176,6 +195,7 @@ The [Model Context Protocol](https://modelcontextprotocol.io/) (MCP) is an open 
 - [MCP.so](https://mcp.so/) - Directory and registry for discovering MCP servers.
 - [Glama MCP Directory](https://glama.ai/mcp/servers) - Curated directory of MCP servers with categories.
 - [Smithery](https://smithery.ai/) - Registry for discovering and installing MCP servers.
+- [Official MCP Registry](https://registry.modelcontextprotocol.io/) - Community-driven registry service for publicly available MCP servers.
 
 ## Testing & Debugging
 
@@ -183,6 +203,7 @@ The [Model Context Protocol](https://modelcontextprotocol.io/) (MCP) is an open 
 - [mcp-cli](https://github.com/wong2/mcp-cli) - CLI tool for testing and interacting with MCP servers.
 - [mcpx](https://github.com/punkpeye/mcp-proxy) - MCP proxy for debugging and logging server communications.
 - [Supergateway](https://github.com/supercorp-ai/supergateway) - Runs stdio MCP servers over SSE or Streamable HTTP.
+- [Everything MCP](https://github.com/modelcontextprotocol/servers/tree/main/src/everything) - Official reference server that exercises every MCP feature, for testing clients.
 
 ## Tutorials & Guides
 
