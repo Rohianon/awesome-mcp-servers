@@ -1,0 +1,21 @@
+name: Report a broken or outdated link
+description: An entry's link is dead, archived, or points to the wrong place.
+title: "Broken link: "
+labels: [bug]
+body:
+  - type: input
+    id: entry
+    attributes:
+      label: Entry name
+    validations:
+      required: true
+  - type: input
+    id: url
+    attributes:
+      label: Current link
+    validations:
+      required: true
+  - type: input
+    id: replacement
+    attributes:
+      label: Suggested replacement (if known)
