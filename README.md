@@ -15,12 +15,14 @@ The [Model Context Protocol](https://modelcontextprotocol.io/) (MCP) is an open 
 - [Communication](#communication)
 - [Search & Web](#search--web)
 - [AI & LLM](#ai--llm)
+- [Memory & Knowledge](#memory--knowledge)
 - [Data & Analytics](#data--analytics)
 - [Productivity](#productivity)
 - [Media & Files](#media--files)
 - [Finance & Payments](#finance--payments)
 - [Monitoring & Observability](#monitoring--observability)
 - [Clients & Hosts](#clients--hosts)
+- [Gateways & Registries](#gateways--registries)
 - [Testing & Debugging](#testing--debugging)
 - [Tutorials & Guides](#tutorials--guides)
 - [Community](#community)
@@ -50,7 +52,6 @@ The [Model Context Protocol](https://modelcontextprotocol.io/) (MCP) is an open 
 - [FastMCP](https://github.com/jlowin/fastmcp) - High-level Python framework for building MCP servers with minimal boilerplate.
 - [mcp-framework](https://github.com/QuantGeekDev/mcp-framework) - TypeScript framework for building MCP servers with decorators.
 - [Spring AI MCP](https://docs.spring.io/spring-ai/reference/api/mcp/mcp-overview.html) - Spring Boot integration for building MCP servers and clients in Java.
-- [mcp-server-go (mark3labs)](https://github.com/mark3labs/mcp-go) - Go framework for creating MCP servers with the Go SDK.
 
 ## Database Servers
 
@@ -76,13 +77,11 @@ The [Model Context Protocol](https://modelcontextprotocol.io/) (MCP) is an open 
 
 ## Developer Tools
 
-- [API.market MCP Gateway](https://api.market/api/mcp/gateway) - Hosted API discovery and execution with five tools over Streamable HTTP, OAuth or API keys, and per-API free tiers and paid plans.
 - [GitHub MCP](https://github.com/github/github-mcp-server) - GitHub's official MCP server for repos, issues, PRs, and code search.
 - [GitLab MCP](https://docs.gitlab.com/user/model_context_protocol/mcp_server/) - GitLab's official MCP server for working with GitLab projects.
 - [Git MCP](https://github.com/modelcontextprotocol/servers/tree/main/src/git) - Official MCP server for Git repository operations.
 - [Filesystem MCP](https://github.com/modelcontextprotocol/servers/tree/main/src/filesystem) - Official MCP server for local filesystem operations.
 - [Linear MCP](https://linear.app/docs/mcp) - Linear's official hosted MCP server for issue tracking and project management.
-- [Sentry MCP](https://mcp.sentry.dev/) - Sentry's official MCP server for error tracking and issue investigation.
 - [Playwright MCP](https://github.com/microsoft/playwright-mcp) - Microsoft's MCP server for browser automation with Playwright.
 - [Postman MCP](https://github.com/postmanlabs/postman-mcp-server) - MCP server for Postman API testing and collections.
 - [Agent QA](https://github.com/vostride/agent-qa) - MCP tools to author, run, and inspect natural-language web, Android, and iOS tests, with source available under FSL-1.1-ALv2.
@@ -108,9 +107,13 @@ The [Model Context Protocol](https://modelcontextprotocol.io/) (MCP) is an open 
 
 ## AI & LLM
 
-- [HuggingFace MCP](https://github.com/huggingface/mcp-course) - HuggingFace's MCP course and server implementations.
 - [LangChain MCP](https://github.com/langchain-ai/langchain-mcp-adapters) - Adapters for using MCP tools with LangChain agents.
 - [RunAPI MCP](https://github.com/runapi-ai/mcp) - MCP server for running AI image, video, music, speech, and LLM jobs through RunAPI.
+
+## Memory & Knowledge
+
+- [Hyperconsciousness](https://github.com/louis030195/hyperconsciousness) - Developer-alpha encrypted knowledge store with lexical search and scoped, expiring grants over MCP.
+- [Obsidian MCP](https://github.com/MarkusPfundstein/mcp-obsidian) - MCP server for Obsidian vaults via the Local REST API plugin.
 - [Qdrant MCP](https://github.com/qdrant/mcp-server-qdrant) - MCP server for Qdrant vector database operations.
 - [Chroma MCP](https://github.com/chroma-core/chroma-mcp) - MCP server for Chroma vector database.
 - [Pinecone MCP](https://github.com/pinecone-io/pinecone-mcp) - MCP server for Pinecone vector search.
@@ -120,7 +123,6 @@ The [Model Context Protocol](https://modelcontextprotocol.io/) (MCP) is an open 
 
 - [BigQuery MCP](https://github.com/LucasHild/mcp-server-bigquery) - MCP server for Google BigQuery queries and dataset management.
 - [Snowflake MCP](https://github.com/datawiz168/mcp-snowflake-service) - MCP server for Snowflake data warehouse operations.
-- [Grafana MCP](https://github.com/grafana/mcp-grafana) - MCP server for Grafana dashboards and data exploration.
 - [Jupyter MCP](https://github.com/datalayer/jupyter-mcp-server) - MCP server for Jupyter notebook execution.
 - [Databricks MCP](https://github.com/databrickslabs/mcp) - MCP servers from Databricks Labs for working with Databricks workspaces.
 - [Invokely MCP connector](https://github.com/estevecastells/invokely-mcp-connector) - Local stdio MCP connector for querying official statistics through Invokely's hosted service.
@@ -128,9 +130,7 @@ The [Model Context Protocol](https://modelcontextprotocol.io/) (MCP) is an open 
 ## Productivity
 
 - [Orbit by Noveum](https://orbit.noveum.ai/mcp) - Hosted MCP server for issues, projects, sprints, docs and files with workspace-scoped OAuth.
-- [Hyperconsciousness](https://github.com/louis030195/hyperconsciousness) - Developer-alpha encrypted knowledge store with lexical search and scoped, expiring grants over MCP.
 - [Notion MCP](https://github.com/makenotion/notion-mcp-server) - Notion's official MCP server for pages, databases, and search.
-- [Obsidian MCP](https://github.com/MarkusPfundstein/mcp-obsidian) - MCP server for Obsidian vaults via the Local REST API plugin.
 - [Todoist MCP](https://github.com/abhiz123/todoist-mcp-server) - MCP server for Todoist task management.
 - [Google Calendar MCP](https://github.com/nspady/google-calendar-mcp) - MCP server for Google Calendar events and scheduling.
 - [Apple Notes MCP](https://github.com/sirmews/apple-notes-mcp) - MCP server for reading and searching Apple Notes.
@@ -155,8 +155,6 @@ The [Model Context Protocol](https://modelcontextprotocol.io/) (MCP) is an open 
 - [Datadog MCP](https://github.com/datadog-labs/mcp-server) - Datadog Labs MCP server for querying Datadog observability data.
 - [Grafana MCP](https://github.com/grafana/mcp-grafana) - MCP server for Grafana monitoring and visualization.
 - [Kilobat CLI](https://github.com/seifip/kilobat-cli) - Local macOS 14+ network diagnostics and per-app traffic monitoring exposed through stdio MCP and JSON.
-
-
 - [Noveum](https://noveum.ai/en/mcp) - Hosted MCP server for AI traces, evaluation datasets, and model comparisons, with OAuth or Bearer API key authentication.
 
 ## Clients & Hosts
@@ -172,6 +170,13 @@ The [Model Context Protocol](https://modelcontextprotocol.io/) (MCP) is an open 
 - [Amazon Q Developer](https://aws.amazon.com/q/developer/) - AWS AI assistant with MCP client capabilities.
 - [Genkit (Google)](https://github.com/firebase/genkit) - Google's AI framework with MCP plugin support.
 
+## Gateways & Registries
+
+- [API.market MCP Gateway](https://api.market/api/mcp/gateway) - Hosted API discovery and execution with five tools over Streamable HTTP, OAuth or API keys, and per-API free tiers and paid plans.
+- [MCP.so](https://mcp.so/) - Directory and registry for discovering MCP servers.
+- [Glama MCP Directory](https://glama.ai/mcp/servers) - Curated directory of MCP servers with categories.
+- [Smithery](https://smithery.ai/) - Registry for discovering and installing MCP servers.
+
 ## Testing & Debugging
 
 - [MCP Inspector](https://github.com/modelcontextprotocol/inspector) - Official visual debugging tool for MCP servers.
@@ -182,14 +187,9 @@ The [Model Context Protocol](https://modelcontextprotocol.io/) (MCP) is an open 
 ## Tutorials & Guides
 
 - [MCP Quickstart Guide](https://modelcontextprotocol.io/quickstart) - Official getting started tutorial for building your first MCP server.
-- [Building MCP with Python](https://modelcontextprotocol.io/quickstart/server) - Step-by-step guide to building MCP servers in Python.
-- [Building MCP with TypeScript](https://modelcontextprotocol.io/quickstart/server) - TypeScript MCP server tutorial.
 - [HuggingFace MCP Course](https://github.com/huggingface/mcp-course) - Free course on building and using MCP servers.
 - [Claude Code MCP Docs](https://code.claude.com/docs/en/mcp) - Guide to connecting Claude Code to MCP servers.
 - [Awesome MCP Servers (punkpeye)](https://github.com/punkpeye/awesome-mcp-servers) - Another comprehensive collection of MCP servers.
-- [MCP.so](https://mcp.so/) - Directory and registry for discovering MCP servers.
-- [Glama MCP Directory](https://glama.ai/mcp/servers) - Curated directory of MCP servers with categories.
-- [Smithery](https://smithery.ai/) - Registry for discovering and installing MCP servers.
 
 ## Community
 
