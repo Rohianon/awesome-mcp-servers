@@ -8,7 +8,7 @@ Thank you for considering contributing! This list is community-driven and thrive
 
 1. **Fork** this repository.
 2. **Create a branch**: `git checkout -b add-tool-name`
-3. **Add your entry** in the appropriate category in `README.md`.
+3. **Add your entry** in the appropriate category in `README.md`, in **alphabetical order** (case-insensitive) by name. The Official Resources section is the only exception and is kept in curated order.
 4. **Submit a Pull Request** with a clear description of what you're adding and why.
 
 ### Entry Format
