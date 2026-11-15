@@ -169,6 +169,8 @@ The [Model Context Protocol](https://modelcontextprotocol.io/) (MCP) is an open 
 - [Datadog MCP](https://github.com/DataDog/datadog-mcp-server) - MCP server for Datadog metrics, logs, and APM.
 - [Grafana MCP](https://github.com/grafana/mcp-grafana) - MCP server for Grafana monitoring and visualization.
 - [PagerDuty MCP](https://github.com/PagerDuty/mcp-server-pagerduty) - MCP server for PagerDuty incident management.
+- [Kilobat CLI](https://github.com/seifip/kilobat-cli) - Local macOS 14+ network diagnostics and per-app traffic monitoring exposed through stdio MCP and JSON.
+
 
 - [Noveum](https://noveum.ai/en/mcp) - Hosted MCP server for AI traces, evaluation datasets, and model comparisons, with OAuth or Bearer API key authentication.
 
