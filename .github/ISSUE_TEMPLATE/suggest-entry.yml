@@ -1,0 +1,29 @@
+name: Suggest an entry
+description: Suggest an MCP server, client, SDK, or resource for the list.
+title: "Suggest: "
+labels: [enhancement]
+body:
+  - type: input
+    id: name
+    attributes:
+      label: Name
+    validations:
+      required: true
+  - type: input
+    id: url
+    attributes:
+      label: Link
+      description: Repository or official documentation URL.
+    validations:
+      required: true
+  - type: input
+    id: section
+    attributes:
+      label: Suggested section
+      placeholder: e.g. Developer Tools
+  - type: textarea
+    id: why
+    attributes:
+      label: What does it do, and why is it useful?
+    validations:
+      required: true
