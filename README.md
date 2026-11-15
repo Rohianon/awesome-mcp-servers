@@ -87,6 +87,7 @@ The [Model Context Protocol](https://modelcontextprotocol.io/) (MCP) is an open 
 - [Playwright MCP](https://github.com/microsoft/playwright-mcp) - Microsoft's MCP server for browser automation with Playwright.
 - [Puppeteer MCP](https://github.com/modelcontextprotocol/servers/tree/main/src/puppeteer) - Official MCP server for browser automation with Puppeteer.
 - [Postman MCP](https://github.com/postmanlabs/postman-mcp-server) - MCP server for Postman API testing and collections.
+- [Agent QA](https://github.com/vostride/agent-qa) - MCP tools to author, run, and inspect natural-language web, Android, and iOS tests, with source available under FSL-1.1-ALv2.
 
 ## Communication
 
