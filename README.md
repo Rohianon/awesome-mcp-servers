@@ -112,6 +112,7 @@ The [Model Context Protocol](https://modelcontextprotocol.io/) (MCP) is an open 
 - [OpenAI MCP](https://github.com/openai/openai-mcp) - MCP server for OpenAI API interactions.
 - [HuggingFace MCP](https://github.com/huggingface/mcp-course) - HuggingFace's MCP course and server implementations.
 - [LangChain MCP](https://github.com/langchain-ai/langchain-mcp-adapters) - Adapters for using MCP tools with LangChain agents.
+- [RunAPI MCP](https://github.com/runapi-ai/mcp) - MCP server for running AI image, video, music, speech, and LLM jobs through RunAPI.
 - [Qdrant MCP](https://github.com/qdrant/mcp-server-qdrant) - MCP server for Qdrant vector database operations.
 - [Chroma MCP](https://github.com/chroma-core/chroma-mcp) - MCP server for Chroma vector database.
 - [Pinecone MCP](https://github.com/pinecone-io/pinecone-mcp) - MCP server for Pinecone vector search.
