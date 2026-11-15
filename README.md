@@ -28,6 +28,7 @@ The [Model Context Protocol](https://modelcontextprotocol.io/) (MCP) is an open 
 - [Testing & Debugging](#testing--debugging)
 - [Tutorials & Guides](#tutorials--guides)
 - [Community](#community)
+- [Support](#support)
 
 ## Official Resources
 
@@ -42,11 +43,11 @@ The [Model Context Protocol](https://modelcontextprotocol.io/) (MCP) is an open 
 - [C# SDK](https://github.com/modelcontextprotocol/csharp-sdk) - .NET SDK for building MCP servers and clients.
 - [Go SDK (mark3labs)](https://github.com/mark3labs/mcp-go) - Community Go SDK for the Model Context Protocol.
 - [Java SDK (quarkiverse)](https://github.com/quarkiverse/quarkus-mcp-server) - Quarkus extension for building MCP servers in Java.
-- [Kotlin SDK](https://github.com/modelcontextprotocol/kotlin-sdk) - Kotlin SDK for JVM-based MCP implementations.
+- [Kotlin SDK](https://github.com/modelcontextprotocol/kotlin-sdk) - Official SDK for building MCP servers and clients in Kotlin on the JVM.
 - [Python SDK](https://github.com/modelcontextprotocol/python-sdk) - Official Python SDK for building MCP servers and clients.
 - [Ruby SDK](https://github.com/modelcontextprotocol/ruby-sdk) - Official Ruby SDK for building MCP servers and clients.
-- [Rust SDK](https://github.com/modelcontextprotocol/rust-sdk) - Rust SDK for building high-performance MCP servers.
-- [Swift SDK](https://github.com/modelcontextprotocol/swift-sdk) - Swift SDK for building MCP servers on Apple platforms.
+- [Rust SDK](https://github.com/modelcontextprotocol/rust-sdk) - Official SDK for building high-performance MCP servers in Rust.
+- [Swift SDK](https://github.com/modelcontextprotocol/swift-sdk) - Official SDK for building MCP servers on Apple platforms.
 - [TypeScript SDK](https://github.com/modelcontextprotocol/typescript-sdk) - Official TypeScript/Node.js SDK for building MCP servers and clients.
 
 ## Server Frameworks
@@ -61,7 +62,7 @@ The [Model Context Protocol](https://modelcontextprotocol.io/) (MCP) is an open 
 - [DuckDB MCP](https://github.com/motherduckdb/mcp-server-motherduck) - MCP server for DuckDB and MotherDuck queries.
 - [MongoDB MCP](https://github.com/kiliczsh/mcp-mongo-server) - MCP server for MongoDB operations and queries.
 - [MySQL MCP](https://github.com/benborla/mcp-server-mysql) - MCP server for MySQL database interactions.
-- [Neon MCP](https://github.com/neondatabase/mcp-server-neon) - MCP server for Neon serverless Postgres — branches, queries, and management.
+- [Neon MCP](https://github.com/neondatabase/mcp-server-neon) - MCP server for Neon serverless PostgreSQL — branches, queries, and management.
 - [Postgres MCP Pro](https://github.com/crystaldba/postgres-mcp) - MCP server for PostgreSQL with querying, schema inspection, and performance analysis.
 - [Redis MCP](https://github.com/redis/mcp-redis) - Official Redis MCP server for managing and searching data in Redis.
 - [Supabase MCP](https://github.com/supabase-community/supabase-mcp) - MCP server for Supabase — database, auth, storage, and edge functions.
@@ -157,7 +158,7 @@ The [Model Context Protocol](https://modelcontextprotocol.io/) (MCP) is an open 
 - [Alpha Vantage MCP](https://github.com/alphavantage/alpha_vantage_mcp) - Official Alpha Vantage MCP server for stock, forex, crypto, and economic data.
 - [Coinbase MCP](https://github.com/coinbase/agentkit) - Coinbase AgentKit with MCP server for crypto operations.
 - [FilingFirehose MCP](https://filingfirehose.com/mcp) - Hosted SEC EDGAR MCP for any US ticker: 8-K / 10-K / 10-Q / S-3 / 13D filings plus forensic risk scoring (LOW/MODERATE/ELEVATED/HIGH) and cyber-incident tracking.
-- [Statsnet](https://github.com/usenetstate/statsnet-mcp) - Background check any company in the world: registration, executives, courts and finances. Remote: `https://statsnet.co/mcp` · Registry: `io.github.usenetstate/statsnet`
+- [Statsnet](https://github.com/usenetstate/statsnet-mcp) - Background check any company in the world: registration, executives, courts and finances. Remote: `https://statsnet.co/mcp` · Registry: `io.github.usenetstate/statsnet`.
 - [Stripe MCP](https://github.com/stripe/agent-toolkit) - Stripe's AI agent toolkit with MCP server for payments.
 
 ## Monitoring & Observability
@@ -209,7 +210,7 @@ The [Model Context Protocol](https://modelcontextprotocol.io/) (MCP) is an open 
 
 - [Awesome MCP Servers (punkpeye)](https://github.com/punkpeye/awesome-mcp-servers) - Another comprehensive collection of MCP servers.
 - [Claude Code MCP Docs](https://code.claude.com/docs/en/mcp) - Guide to connecting Claude Code to MCP servers.
-- [HuggingFace MCP Course](https://github.com/huggingface/mcp-course) - Free course on building and using MCP servers.
+- [Hugging Face MCP Course](https://github.com/huggingface/mcp-course) - Free course on building and using MCP servers.
 - [MCP Quickstart Guide](https://modelcontextprotocol.io/quickstart) - Official getting started tutorial for building your first MCP server.
 
 ## Community
@@ -231,7 +232,3 @@ If you find this list useful, consider supporting its maintenance:
 ## Contributing
 
 Contributions are welcome! Please read the [contributing guidelines](CONTRIBUTING.md) first.
-
-## License
-
-[![CC0](https://licensebuttons.net/p/zero/1.0/88x31.png)](https://creativecommons.org/publicdomain/zero/1.0/)

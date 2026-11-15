@@ -1,0 +1,31 @@
+name: Check links
+
+on:
+  pull_request:
+  push:
+    branches: [main]
+  schedule:
+    - cron: "0 6 * * 1" # weekly, Monday 06:00 UTC
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  lychee:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Check links in README
+        uses: lycheeverse/lychee-action@v2
+        with:
+          # 401/405/406: hosted MCP endpoints reject plain GET requests.
+          # 403/429: sites that block or rate-limit bots (e.g. Reddit, GitHub topics).
+          args: >-
+            --no-progress
+            --accept 200,401,403,405,406,429
+            --max-retries 3
+            README.md
+          fail: true
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
