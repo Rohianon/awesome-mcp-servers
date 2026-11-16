@@ -128,6 +128,7 @@ The [Model Context Protocol](https://modelcontextprotocol.io/) (MCP) is an open 
 
 - [BigQuery MCP](https://github.com/LucasHild/mcp-server-bigquery) - MCP server for Google BigQuery queries and dataset management.
 - [Databricks MCP](https://github.com/databrickslabs/mcp) - MCP servers from Databricks Labs for working with Databricks workspaces.
+- [DC Hub](https://github.com/azmartone67/dchub-mcp-server) - Orchestration layer for data center and energy intelligence; start with execute_plan, and use the Data Center Power Index (DCPI) plus 97 tools at https://dchub.cloud/mcp (DCHUB_API_KEY is optional).
 - [Invokely MCP connector](https://github.com/estevecastells/invokely-mcp-connector) - Local stdio MCP connector for querying official statistics through Invokely's hosted service.
 - [Jupyter MCP](https://github.com/datalayer/jupyter-mcp-server) - MCP server for Jupyter notebook execution.
 - [Snowflake MCP](https://github.com/datawiz168/mcp-snowflake-service) - MCP server for Snowflake data warehouse operations.
