@@ -155,6 +155,7 @@ The [Model Context Protocol](https://modelcontextprotocol.io/) (MCP) is an open 
 
 ## Finance & Payments
 
+- [Agent Payment Node](https://github.com/nuanu-ai/agent-payment-node) - Local CLI and stdio MCP payment runtime for AI agents (macOS Apple Silicon); direct transfers wait for owner approval in a terminal, x402 purchases run within an owner-set spending policy.
 - [Alpha Vantage MCP](https://github.com/alphavantage/alpha_vantage_mcp) - Official Alpha Vantage MCP server for stock, forex, crypto, and economic data.
 - [Coinbase MCP](https://github.com/coinbase/agentkit) - Coinbase AgentKit with MCP server for crypto operations.
 - [FilingFirehose MCP](https://filingfirehose.com/mcp) - Hosted SEC EDGAR MCP for any US ticker: 8-K / 10-K / 10-Q / S-3 / 13D filings plus forensic risk scoring (LOW/MODERATE/ELEVATED/HIGH) and cyber-incident tracking.
