@@ -101,6 +101,7 @@ The [Model Context Protocol](https://modelcontextprotocol.io/) (MCP) is an open 
 
 - [Brave Search MCP](https://github.com/brave/brave-search-mcp-server) - Official MCP server for the Brave Search API.
 - [Browserbase MCP](https://github.com/browserbase/mcp-server-browserbase) - MCP server for cloud browser sessions and web automation.
+- [CheapCarRent](https://github.com/aleksandrjefimov4-crypto/cheapcarent-mcp) - Read-only MCP server for searching rental cars and listing pickup cities and airports over Streamable HTTP at https://cheapcarent.com/mcp.
 - [Exa MCP](https://github.com/exa-labs/exa-mcp-server) - MCP server for Exa neural search — semantic web search for AI.
 - [Fetch MCP](https://github.com/modelcontextprotocol/servers/tree/main/src/fetch) - Official MCP server for fetching and parsing web content.
 - [Firecrawl MCP](https://github.com/mendableai/firecrawl-mcp-server) - MCP server for Firecrawl web scraping and crawling.
