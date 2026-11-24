@@ -150,6 +150,7 @@ The [Model Context Protocol](https://modelcontextprotocol.io/) (MCP) is an open 
 ## Design & 3D
 
 - [Blender MCP](https://github.com/ahujasid/mcp-for-blender) - Community plugin for controlling Blender 3D with any LLM.
+- [DESIGN:OS 3D Blender](https://github.com/jangtrinh/design-os-3d-blender) - Free, source-available MCP server and agent skill that drives headless Blender to model, render and check parametric parts from plain-English specs, with STL and glTF export.
 - [Figma Context MCP](https://github.com/GLips/Figma-Context-MCP) - Provides Figma layout information to AI coding agents.
 - [Figma MCP](https://help.figma.com/hc/en-us/articles/32132100833559-Guide-to-the-Figma-MCP-server) - Figma's official MCP server for bringing design context into coding agents.
 
