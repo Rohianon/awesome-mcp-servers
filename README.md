@@ -94,6 +94,7 @@ The [Model Context Protocol](https://modelcontextprotocol.io/) (MCP) is an open 
 - [BulkPublish MCP](https://github.com/azeemkafridi/bulkpublish-api) - MCP server for AI agents to plan, review, schedule, publish, and analyze social media content through BulkPublish.
 - [Discord MCP](https://github.com/v-3/discordmcp) - MCP server for Discord bot operations and messaging.
 - [Microsoft Teams MCP](https://github.com/InditexTech/mcp-teams-server) - MCP server for reading, posting, and replying to Microsoft Teams messages.
+- [Poptin MCP](https://developers.poptin.com/docs/mcp) - Hosted MCP server for drafting email campaigns, reviewing popup and signup form performance, and building audience segments in Poptin.
 - [Slack MCP](https://github.com/korotovsky/slack-mcp-server) - MCP server for Slack workspaces, including channels, DMs, threads, and search.
 - [Twilio MCP](https://github.com/twilio-labs/mcp) - MCP server for Twilio SMS and communication APIs.
 
