@@ -135,7 +135,7 @@ The [Model Context Protocol](https://modelcontextprotocol.io/) (MCP) is an open 
 ## Productivity
 
 - [Apple Notes MCP](https://github.com/sirmews/apple-notes-mcp) - MCP server for reading and searching Apple Notes.
-- [Frank AI Researcher](https://github.com/nar-vardanyan/frank-mcp) - Official hosted MCP server for AI-moderated voice interviews with your own customers, at https://api.hifrank.ai/mcp (OAuth).
+- [Frank AI Researcher](https://github.com/nar-vardanyan/frank-mcp) - Hosted MCP server for AI-moderated voice interviews with your own customers, at https://api.hifrank.ai/mcp (OAuth).
 - [Google Calendar MCP](https://github.com/nspady/google-calendar-mcp) - MCP server for Google Calendar events and scheduling.
 - [NotFair Google Ads MCP](https://github.com/nowork-studio/toprank) - Google Ads MCP server. Connect Claude and AI agents to a Google Ads account: diagnose performance, recommend optimizations, and execute approved changes via the Google Ads API with a built-in human-approval gate.
 - [Notion MCP](https://github.com/makenotion/notion-mcp-server) - Notion's official MCP server for pages, databases, and search.
